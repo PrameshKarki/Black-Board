@@ -1,0 +1,69 @@
+/* #stopUsingPx */
+/* Universal Selector */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7rem;
+    color:white;
+    background-color:transparent;
+}
+.container p#note{
+    font-size: 1.8rem;
+}
+.color-picker{
+    width:18rem;
+    height: 100%;
+    text-align: center;
+    padding:0.2rem 1rem;
+    font-size: 2rem;
+}
+.color-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:0.5rem;
+}
+.color-items{
+    width:3rem;
+    height: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+hr{
+    width: 50%;
+    margin:0 auto;
+    background-color:white;
+    height: 0.1rem;
+    border: none;
+    outline: none;
+}
+
+/* Pramesh Karki */
